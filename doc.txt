@@ -1,0 +1,12 @@
+Contains trivial info
+API- For express(backend)
+Client- React App
+
+Index.html -> main.jsx -> App.jsx -> All Routes
+
+Flow-
+1. Header -
+    i. logo
+    ii. Search Bar
+    iii. Authentication and login
+    iv. User Section
