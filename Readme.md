@@ -24,7 +24,7 @@ STEPS:
 https://tailwindcss.com/docs/guides/vite
 
 3. For routing-
-    yarn add reat-router-dom
+    yarn add react-router-dom
 
 
 
