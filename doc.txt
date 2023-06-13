@@ -10,3 +10,25 @@ Flow-
     ii. Search Bar
     iii. Authentication and login
     iv. User Section
+
+2. Login & Register pages
+
+3. Connect express
+api/index.js
+
+api-> yarn add express
+
+To start Node server- nodemon index.js
+client-> yarn add axios
+
+Cors issue- Front end port is unable to communicate with express
+Therefore, Cors-
+yarn add cors
+    const cors = require('cors')
+
+    app.use(cors({
+        credentials: true,
+        origin: '',
+    }))
+
+    server-5000
