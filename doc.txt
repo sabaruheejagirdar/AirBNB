@@ -31,4 +31,20 @@ yarn add cors
         origin: '',
     }))
 
-    server-5000
+
+3. MongoDB-
+yarn add mongoose
+yarn add dotenv
+
+Bcrypt password:
+api-> yarn add bryptjs
+
+bookingg -> Nb3CMtDuQjNQd600
+
+Cookie-
+yarn add jsonwebtoken
+
+--Login, set cookiee
+useeffect, createcontext, useState
+
+1:28-2:50
