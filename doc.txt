@@ -4,6 +4,8 @@ Client- React App
 
 Index.html -> main.jsx -> App.jsx -> All Routes
 
+For debugging- React Developer Tool => Components
+
 Flow-
 1. Header -
     i. logo
@@ -46,5 +48,9 @@ yarn add jsonwebtoken
 
 --Login, set cookiee
 useeffect, createcontext, useState
+
+-- Get name from cookie after log-in and 
+-let it persist on refresh(for which useEffect)
+- yarn add cookie-parser
 
 1:28-2:50
