@@ -52,5 +52,10 @@ useeffect, createcontext, useState
 -- Get name from cookie after log-in and 
 -let it persist on refresh(for which useEffect)
 - yarn add cookie-parser
+- /profile and UserContext is used
+
+4. UserContext- Manage state globally, ie parent value is shared within all of the nested route. Ex: Username
+
+
 
 1:28-2:50

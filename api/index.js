@@ -1,9 +1,12 @@
 const express = require('express');
+// For cross origin, that is to communicatae 5173(app port) to 4000(server port)
 const cors = require('cors');
 const mongoose = require('mongoose');
 const bcrypt = require('bcryptjs')
+// for cookie
 const jwt = require('jsonwebtoken')
 const User = require('./models/User.js')
+// To retrieve cookie
 const cookieParser = require('cookie-parser')
 
 require('dotenv').config()
@@ -65,6 +68,7 @@ app.post('/login', async(req, res) => {
     }
 });
 
+// Triggered on useEffect within UserContext
 app.get('/profile', (req, res) => {
     const {token} = req.cookies;
     if (token){
